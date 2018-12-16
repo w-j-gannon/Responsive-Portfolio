@@ -203,3 +203,91 @@ footer {
     border-top: 8px solid #4aaaa5;
 }
 
+/* --------------Media Queries ------------ */
+
+@media screen and (max-width: 980px) {
+    .dBox {
+        max-width: 870px;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .dBox {
+        max-width: 650px;
+        
+    }
+
+    .jobs {
+        padding-right: 0px;
+        margin-right: 20px;
+    }
+}
+
+/* ------------------640------------------- */
+@media screen and (max-width: 640px) {
+    header {
+        width: 100%;
+        height: 130px;
+        position: static;
+        align-content: center;
+    }
+    
+    .dHead {
+        width: 100vw;
+    }
+    .wg {
+        
+        width: 100vw;
+        position: static;
+        align-content: center;
+        padding-left: 175px;
+        
+    }
+
+    nav {
+        
+        display: inline;
+        clear: both;
+        align-content: center;
+    }
+    ul {
+        margin-right: 190px;
+    }
+    li {
+        
+        align-content: center;
+    }
+
+    #bioPic {
+        width: 540px;
+        clear: both;
+        position: static;
+        align-content: center;
+    }
+
+    .aboutMe {
+        clear: both;
+    }
+
+    .dBox {
+        width: 540px;
+    }
+
+    .port {
+        margin: 0 auto;
+        padding-right: 0px;
+        margin: 0px 120px 0px 120px;
+    }
+
+    .jobs {
+        padding-right: 0px;
+    }
+
+}
+
+
+
+
+
+
